@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap Login</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--  NAVBAR -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="·bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Bienvenido</a>
+      </div>
+        <!-- Collect nav links, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="bootstrap_project_main.html">Landing Page</a>
+            </li>
+          </ul>
+        </div> <!--/.navbar-collapse -->
+    </div> <!-- /.container-fluid -->
+  </nav>
+
+  <div class="container">
+    <div class="jumbotron" id= "jumbotron01">
+      <h1>Log In</h1>
+      <p>Ingresa tu correo y contraseña para ingresar a TodoTrámite</p>
+    </div>
+
+    <form class="color02">
+      <div class="form-group">
+        <label for="ejemploInputEmail01">Correo Electrónico</label>
+        <input type="email" class="form-control" id="ejemploInputEmail01" placeholder="Correo electrónico">
+      </div>
+      <div class="form-group">
+        <label for="ejemploInputPassword01">contraseña</label>
+        <input type="password" class="form-control" id="ejemploInputPassword01" placeholder="Contraseña">
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox">Mantenme loggeado
+        </label>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+</body>
+
+</html>

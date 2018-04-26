@@ -1,0 +1,17 @@
+/* .container */
+/*  */
+
+#jumbotron01 {
+  background-color: #C2EABD;
+    text-align: center;
+    border: 3px solid #DCF2B0;
+}
+.jumbotron p {
+  display: none;
+  background-color: #C2EABD
+  padding: 20px
+}
+
+.jumbotron:hover p {
+  display: block;
+}
