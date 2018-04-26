@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-boz-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial, sans-serif;
+    background: #23B1A5; /*azul*/
+    color: #E95280;     /*naranja*/
+}
+.contenedor{
+    width: 300px;
+    margin: 20px;
+    background: #eee5e9; /*rosita claro*/
+    padding: 20px;
+    border-radius: 15px;
+}
+form p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+input[type="text"]{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+form .btn{
+    width: 100%;
+    background: #E95280; /*otra vez naranja*/
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 15px;
+}
